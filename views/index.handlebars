@@ -13,7 +13,7 @@
             <div class="input-group">
               <li class="form-control">{{id}}. {{burger_name}}</li>
                 <span class="input-group-btn">
-                  <button class="btn btn-success devour-button" type="submit">Devour It!</button>
+                  <button class="btn btn-warning devour-button" type="submit">Devour It!</button>
                 </span>
             </div>
           </form>
@@ -26,16 +26,22 @@
     <div class="col-md-4"></div> 
 
     <!-- Right side (Burgers Devoured) -->
-    <div class="col-md-4">
+    <div class="col-md-4 ">
       <h3 class="submitFont">Burgers Devoured</h3>
       <div id="alreadyEaten">
 
         <!-- Insert Devoured Burgers Here -->
         {{#each burgers}}
           {{#if this.devoured}}
-            <div class="input-group">
-              <li class="form-control">{{this.id}}. {{this.burger_name}}</li>
+            <div class="input-group devoured-content">
+           
+            <ul class="list-group list-group-horizontal-xl">
+  <li class="list-group-item">{{this.id}}.  {{this.burger_name}}<span style='font-size:20px;'>&#128523;</span> </li>
+
+
+</ul>
             </div>
+
           {{/if}}
         {{/each}}
 
