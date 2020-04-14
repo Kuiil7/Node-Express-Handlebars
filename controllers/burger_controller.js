@@ -3,7 +3,6 @@ var router = express.Router();
 var burger = require('../models/burger.js');
 
 
-//Setup Routes
 
 // Index Redirect
 router.get('/', function (req, res) 
