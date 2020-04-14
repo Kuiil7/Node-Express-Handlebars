@@ -15,7 +15,7 @@ else
 		host: 'localhost',
 		user: 'root',
 		password: 'testtest',
-		database: 'ri06p9qcllobz359'
+		database: 'burgers_db'
 	});
 };
 

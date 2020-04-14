@@ -1,4 +1,5 @@
-use ri06p9qcllobz359;
+USE vmwu5qmn8txhivmm;
+
 
 CREATE TABLE burgers (
 id int NOT NULL AUTO_INCREMENT,
