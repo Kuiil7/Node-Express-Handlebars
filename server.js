@@ -9,7 +9,7 @@ var path = require("path");
 
 // Express setup
 var app = express();
-var PORT = process.env.PORT || 3002;
+var PORT = process.env.PORT
 
 
 // Middleware
