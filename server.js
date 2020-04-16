@@ -28,6 +28,7 @@ app.use(express.static(__dirname + "/public"));
 app.use("/", router);
 
 // Start server
-app.listen(PORT, function() {
-	console.log("Listening on PORT " + PORT);
-});
+app.listen((process.env.PORT || 5000), function(){
+	console.log('listening on *:5000');
+  });
+
