@@ -1,5 +1,5 @@
 -- Select burgers_db
-USE `bh22f0c1919hyoxsu`;
+USE `vmwu5qmn8txhivmm`;
 
 -- insert 3 burgers
 INSERT INTO `burgers` (burger_name, devoured, date) VALUES ('Angus', false, CURRENT_TIMESTAMP);
