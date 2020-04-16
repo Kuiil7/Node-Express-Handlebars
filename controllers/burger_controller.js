@@ -4,6 +4,7 @@ var burger = require('../models/burger.js');
 
 
 
+
 // Index Redirect
 router.get('/', function (req, res) 
 {
