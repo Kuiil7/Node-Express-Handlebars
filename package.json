@@ -1,8 +1,17 @@
 {
   "name": "express-handlebars",
   "version": "1.0.0",
-  "description": "Burger logger",
+  "description": "This app, Eat-Da-Burger!, allows you to create a burger and log a list of items in a database.  Node and MySQL does the queries and routes while handlebars generates HTML content.",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "favicon": "^0.0.2",
+    "handlebars": "^4.7.6",
+    "method-override": "^3.0.0",
+    "mysql2": "^2.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,19 +20,10 @@
     "type": "git",
     "url": "git+https://github.com/darh0ky/Node-Express-Handlebars.git"
   },
-  "author": "Joey Merino",
+  "author": "J A M",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/darh0ky/Node-Express-Handlebars/issues"
   },
-  "homepage": "https://github.com/darh0ky/Node-Express-Handlebars#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "favicon": "0.0.2",
-    "handlebars": "^4.7.6",
-    "method-override": "^3.0.0",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.1.0"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/darh0ky/Node-Express-Handlebars#readme"
 }
