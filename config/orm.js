@@ -6,7 +6,6 @@ var orm =
 
 	selectAll: function(callback) 
 	{
-		//mySQL Query
 		connection.query('SELECT * FROM burgers', function(err, result)
 		{
 			if (err) throw err;
@@ -27,7 +26,6 @@ var orm =
 				
 	},
 
-	//updateOne()
 	updateOne: function(burgerID, callback)
 	{
 		connection.query('UPDATE burgers SET ? WHERE ?', [{devoured: true}, {id: burgerID}],
@@ -40,5 +38,4 @@ var orm =
 };
 
 
-// Export the ORM object in module.exports.
 module.exports = orm;
