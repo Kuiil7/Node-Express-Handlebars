@@ -9,7 +9,7 @@ var path = require("path");
 
 // Express setup
 var app = express();
-var PORT = process.env.PORT
+var PORT = process.env.PORT || 8080;
 
 
 // Middleware
@@ -28,7 +28,7 @@ app.use(express.static(__dirname + "/public"));
 app.use("/", router);
 
 // Start server
-app.listen((process.env.PORT || 5000), function(){
-	console.log('listening on *:5000');
+app.listen((PORT, function(){
+	console.log('listening on *:8080');
   });
 
