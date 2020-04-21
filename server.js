@@ -6,10 +6,8 @@ var bodyParser = require("body-parser");
 var exphbs = require("express-handlebars");
 var router = require("./controllers/burger_controller.js");
 var path = require("path");
-
-// Express setup
-var app = express();
-var PORT = process.env.PORT || 8080;
+//ENABLE if you want to use your own local environmental variables.
+require("dotenv").config();
 
 
 // Middleware
@@ -28,7 +26,7 @@ app.use(express.static(__dirname + "/public"));
 app.use("/", router);
 
 // Start server
-app.listen((PORT, function(){
-	console.log('Listening on' * PORT);
+app.listen(PORT, function(){
+	console.log('Listening on' + PORT);
   });
 
