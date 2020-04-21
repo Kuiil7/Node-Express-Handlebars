@@ -29,6 +29,6 @@ app.use("/", router);
 
 // Start server
 app.listen((PORT, function(){
-	console.log('listening on *:8080');
+	console.log('Listening on' * PORT);
   });
 
