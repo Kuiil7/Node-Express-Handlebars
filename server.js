@@ -28,6 +28,7 @@ app.set("view engine", "handlebars");
 app.use(express.static(__dirname + "/public"));
 app.use("/", router);
 
+/*
 // Timeout
 app.use(timeout(15000));
 app.use(haltOnTimedout);
@@ -35,6 +36,8 @@ app.use(haltOnTimedout);
 function haltOnTimedout(req, res, next) {
     if (!req.timedout) next();
 }
+
+*/
 
 // Start server
 app.listen(PORT, function(){
