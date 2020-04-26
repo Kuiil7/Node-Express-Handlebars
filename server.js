@@ -1,6 +1,5 @@
 // Dependencies
 
-var express = require("express");
 var methodOverride = require("method-override");
 var bodyParser = require("body-parser");
 var exphbs = require("express-handlebars");
@@ -8,6 +7,10 @@ var router = require("./controllers/burger_controller.js");
 var path = require("path");
 //ENABLE if you want to use your own local environmental variables.
 require("dotenv").config();
+
+const express = require('express'),
+			app = express(),
+			PORT = 3000
 
 
 // Middleware
@@ -27,6 +30,6 @@ app.use("/", router);
 
 // Start server
 app.listen(PORT, function(){
-	console.log('Listening on' + PORT);
+	console.log("Listening on" + PORT);
   });
 

@@ -16,5 +16,20 @@
   "bugs": {
     "url": "https://github.com/darh0ky/Node-Express-Handlebars/issues"
   },
-  "homepage": "https://github.com/darh0ky/Node-Express-Handlebars#readme"
+  "homepage": "https://github.com/darh0ky/Node-Express-Handlebars#readme",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "http": "0.0.1-security",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "orm": "^5.0.5",
+    "path": "^0.12.7",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
 }
