@@ -1,6 +1,6 @@
 // Set up MySQL connection.
 require("dotenv").config();
-var mysql = require("mysql");
+var mysql = require("mysql2");
 
 if (process.env.JAWSDB_MARIA_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_MARIA_URL);
