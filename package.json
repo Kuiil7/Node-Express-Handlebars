@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/darh0ky/Node-Express-Handlebars#readme",
   "dependencies": {
+    "build": "^0.1.4",
     "connect": "^3.7.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.0.2",

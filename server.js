@@ -5,7 +5,6 @@ var bodyParser = require("body-parser");
 var exphbs = require("express-handlebars");
 var router = require("./controllers/burger_controller.js");
 var path = require("path");
-//ENABLE if you want to use your own local environmental variables.
 require("dotenv").config();
 
 const express = require('express'),
@@ -13,7 +12,6 @@ const express = require('express'),
 			PORT = 3000
 
 
-// Middleware
 app.use(methodOverride("_method"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
