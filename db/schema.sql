@@ -1,4 +1,4 @@
-USE welff9z0e5ss3nzt;
+USE trfyv4b8fr9tddr0;
 DROP TABLE IF EXISTS burgers;
 
 CREATE TABLE burgers (
