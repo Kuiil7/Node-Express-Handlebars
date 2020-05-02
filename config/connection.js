@@ -9,7 +9,7 @@ if (process.env.JAWSDB_MARIA_URL) {
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "testtest",
+    password: "",
     database: "burgers_db"
   });
 };
