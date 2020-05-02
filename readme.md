@@ -13,5 +13,4 @@ connect-timeout
 To start app: 
     npm start
 
-![APP Demo](burger.gif)
-
+![APP Demo](burger.gif) live site: https://ancient-thicket-66505.herokuapp.com/index
