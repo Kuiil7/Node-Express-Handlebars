@@ -13,14 +13,11 @@
 
 ## BUILT WITH
 
-MYSQL
-Node
-Express
-Handlebars (MVC)
-MySQL
+* Node
+* Express
+* Handlebars (MVC)
+* MySQL
 
 ## START APP
 
     npm start
-
-
