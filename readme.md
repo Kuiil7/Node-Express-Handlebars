@@ -1,17 +1,26 @@
 # Node Express Handlebars
 
-This app, Eat-Da-Burger!, allows you to create a burger and log a list of items in a database.  Node and MySQL does the queries and routes while handlebars generates HTML content.
+![APP SCREENSHOT](/Assets/burger_app.png)
 
-Created with: 
-MYSQL, Node, Express, Handlebars using the MVC design pattern.
-npm packages:
-mysql
-BodyParser
-method-override
-connect-timeout
+## APP DEMO
 
-To start app: 
+![APP DEMO](/Assets/burger.gif)
+
+
+## LIVE SITE
+
+ https://ancient-thicket-66505.herokuapp.com/index
+
+## BUILT WITH
+
+MYSQL
+Node
+Express
+Handlebars (MVC)
+MySQL
+
+## START APP
+
     npm start
 
-live site: https://ancient-thicket-66505.herokuapp.com/index
-![APP Demo](burger.gif) 
+
