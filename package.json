@@ -21,12 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/darh0ky/Node-Express-Handlebars.git"
+    "url": "git+https://github.com/kuiil7/Node-Express-Handlebars.git"
   },
   "author": "J A M",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/darh0ky/Node-Express-Handlebars/issues"
+    "url": "https://github.com/kuiil7/Node-Express-Handlebars/issues"
   },
-  "homepage": "https://github.com/darh0ky/Node-Express-Handlebars#readme"
+  "homepage": "https://github.com/kuiil7/Node-Express-Handlebars#readme"
 }
